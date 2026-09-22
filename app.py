@@ -4,21 +4,11 @@ import time
 from google import genai
 from google.genai import errors
 
-
-# ============================================================
-# Configuration
-# ============================================================
-
 MODEL_NAME = "gemini-3.6-flash"
 API_KEY = os.getenv("GEMINI_API_KEY")
 
 MAX_RETRIES = 3
 INITIAL_RETRY_DELAY = 2
-
-
-# ============================================================
-# Tutor instructions
-# ============================================================
 
 SYSTEM_INSTRUCTION = """
 You are an honest English tutor and DET preparation coach.
@@ -153,6 +143,7 @@ skip
 example
 I don't know
 don't know
+Idk
 
 Do NOT penalize the student.
 
@@ -198,11 +189,6 @@ NEXT GOAL:
 
 Keep the review concise.
 """
-
-
-# ============================================================
-# DET Tutor
-# ============================================================
 
 class DETTutor:
     """Terminal-based English practice tutor for DET preparation."""
@@ -479,11 +465,6 @@ exit       Exit
 
             except Exception as error:
                 print(f"\n❌ Unexpected error: {error}")
-
-
-# ============================================================
-# Entry point
-# ============================================================
 
 if __name__ == "__main__":
     tutor = DETTutor(
