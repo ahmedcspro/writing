@@ -1,6 +1,6 @@
 # writing
 This tool has helped me a lot to improve my writing because I want to prepare for the DET.
-I see a lot of teachers' websites have systems that help students practice with unlimited questions, and get little feedback. However, the biggest challenge was every week I needed to pay for this tool, or for one month, this made me feel frustrated because I did not have a credit card, I only use my father's credit card. That's why I take care of this, I also start deep thinking how their websites work. I have much experience in Python I discovered that I have already known how I can use Artificial intelligence. Nevertheless, I have built this tool. It helps me practice with many types of questions and get feedback quickly for every answer. 
+I see a lot of teachers' websites have systems that help students practice with unlimited questions, and get little feedback. However, the biggest challenge was every week I need to pay for this tool, or for one month, this makes me feel frustrated because I do not have a credit card, I only use my father's credit card. That's why I take care of this, I also start deep thinking how their websites work. I have much experience in Python I discovered that I have already known how I can use Artificial intelligence. Nevertheless, I have built this tool. It helps me practice with many types of questions and get feedback quickly for every answer. 
 
 
 
